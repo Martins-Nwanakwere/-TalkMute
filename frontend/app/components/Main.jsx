@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const SpeechRecognitionPrototype = () => {
   const [isClient, setIsClient] = useState(false);
-  const [isListening, setIsListening] = useState(true);
+  const [isListening, setIsListening] = useState(false);
   const [speechText, setSpeechText] = useState("");
   const [signLanguageTranslation, setSignLanguageTranslation] = useState("");
 
